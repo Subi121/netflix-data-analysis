@@ -1,43 +1,77 @@
-# Netflix Dataset Analysis
+# 🎬 Netflix Dataset Analysis
 
-Netflix Dataset Analysis is a **data analytics project using Python** that explores trends in Netflix’s content catalog. The project focuses on analyzing **Movies vs TV Shows, genre popularity, ratings, and country-wise contributions** to understand how Netflix’s content strategy has evolved.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-orange)
+![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
 
-## Tech Stack
+An Exploratory Data Analysis (EDA) project on Netflix's content catalog using Python and Plotly. Analyzes content trends, genre popularity, country contributions, director insights, and rating patterns across 7,789 titles from 2008 to 2021.
+
+---
+
+## 📁 Dataset
+
+| Property | Value |
+|---|---|
+| Records | 7,789 |
+| Columns | 11 |
+| Coverage | 2008 – 2021 |
+| Fields | Title, Type, Director, Cast, Country, Rating, Duration, Genre, Year |
+
+---
+
+## 🛠️ Tech Stack
 
 * Python
 * Pandas
-* Matplotlib
-* Seaborn
-* NumPy
-* Google Colab / Jupyter Notebook
+* Plotly Express (interactive charts)
+* Matplotlib / Seaborn
+* Google Colab
 
-## Key Features
+---
 
-* Analyze **distribution of Movies vs TV Shows**
-* Identify **top genres on Netflix**
-* Visualize **content growth over the years**
-* Compare **country-wise contributions**
-* Explore **ratings and movie duration patterns**
-* Generate **multiple charts and visual insights**
+## 📊 Analysis & Visualizations
 
-## Dataset
+| Chart | Description |
+|---|---|
+| Movies vs TV Shows | Distribution and yearly breakdown of content type |
+| Top Genres | Most frequent genres across the catalog |
+| Top 10 Directors | Raúl Campos & Jan Suter lead with 18 titles |
+| Country-wise Contributions | Top content-producing countries |
+| Ratings Distribution | Breakdown of content ratings (TV-MA, TV-14, etc.) |
+| Movie Duration | Histogram of movie lengths in minutes |
+| Content Growth | Movies vs TV Shows released per year (2008–2021) |
 
-* **7,789 records and 11 columns**
-* Includes title, director, cast, country, rating, duration, and genre
-* Covers Netflix content from **2008 – 2021**
+---
 
-## What This Project Demonstrates
+## 🔍 Key Insights
 
-* Data cleaning and preprocessing
-* Exploratory Data Analysis (EDA)
-* Data visualization techniques
-* Extracting **business insights from real-world data**
+* Netflix catalog is **movie-heavy** with significant TV Show growth post-2015
+* **Raúl Campos & Jan Suter** are the most prolific directors with 18 titles
+* **United States** is the top content-contributing country
+* Content additions peaked around **2018–2019**
+* Most content is rated **TV-MA** and **TV-14**, targeting adult audiences
 
-## Key Insights
+---
 
-* Trends in **Movies vs TV Shows growth**
-* **Most popular genres** on Netflix
-* **Top contributing countries**
-* Patterns in **ratings and content duration**
+## 🚀 Run the Project
 
-This project showcases how **data analytics can be used to derive strategic insights from large entertainment datasets.**
+1. Open the notebook in **Google Colab**
+2. Upload `Netflix DataSet.csv`
+3. Run all cells to generate interactive charts
+
+---
+
+## 🔭 Future Improvements
+
+* Sentiment analysis on titles and descriptions
+* Predict content type using ML classification
+* Time-series forecasting of content growth
+* Add genre-based recommendation system
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
