@@ -72,6 +72,13 @@ An **Exploratory Data Analysis (EDA)** project on Netflix's content catalog usin
 
 ---
 
+## ⚠️ Disclaimer
+* This is an independent data analysis project completed during an internship at **VOIS (Vodafone Intelligent Solutions)**.  
+* Not affiliated with or endorsed by Netflix, Inc.  
+* Dataset was provided as part of the internship program.
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
