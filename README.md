@@ -3,10 +3,20 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-9cf)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 
 An **Exploratory Data Analysis (EDA)** project on Netflix's content catalog using Python and Plotly. Analyzes content trends, genre popularity, country contributions, director insights, and rating patterns across **7,789 titles** from **2008 to 2021**.
+
+---
+
+## 🎯 Objective
+ 
+- Analyze Netflix content distribution across Movies and TV Shows
+- Identify top genres, directors, and content-producing countries
+- Understand rating patterns and target audience segmentation
+- Track content growth trends from 2008 to 2021
 
 ---
 
