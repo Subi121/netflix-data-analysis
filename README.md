@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualizations-red)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-9cf)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
@@ -41,6 +42,19 @@ An **Exploratory Data Analysis (EDA)** project on Netflix's content catalog usin
 
 ---
 
+## 📂 Project Structure
+ 
+```
+netflix-data-analysis/
+├── Netflix Dataset.csv                       # Dataset file
+├── Netflix_Dataset_Analysis.ipynb            # Main analysis notebook
+├── Netflix_Project_Problem_Statement.docx    # Project problem statement
+├── requirements.txt                          # Python dependencies
+└── README.md
+```
+ 
+---
+
 ## 📊 Analysis & Visualizations
 
 | Chart | Description |
@@ -67,7 +81,15 @@ An **Exploratory Data Analysis (EDA)** project on Netflix's content catalog usin
 
 ## 🚀 Run the Project
 
-1. Open the notebook in **Google Colab**
+```bash
+git clone https://github.com/Subi121/netflix-data-analysis.git
+cd netflix-data-analysis
+pip install -r requirements.txt
+jupyter notebook Netflix_Dataset_Analysis.ipynb
+```
+ 
+Or open directly in  **Google Colab**:
+1. Open the notebook **Netflix_Dataset_Analysis.ipynb** in **Google Colab**
 2. Upload `Netflix DataSet.csv`
 3. Run all cells to generate interactive charts
 
