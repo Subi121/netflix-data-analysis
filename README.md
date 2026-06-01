@@ -1,4 +1,4 @@
-# 🎬 Netflix Dataset Analysis
+# 🎬 Netflix Data Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
