@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 
-An Exploratory Data Analysis (EDA) project on Netflix's content catalog using Python and Plotly. Analyzes content trends, genre popularity, country contributions, director insights, and rating patterns across 7,789 titles from 2008 to 2021.
+An **Exploratory Data Analysis (EDA)** project on Netflix's content catalog using Python and Plotly. Analyzes content trends, genre popularity, country contributions, director insights, and rating patterns across **7,789 titles** from **2008 to 2021**.
 
 ---
 
